@@ -34,3 +34,7 @@ flash is used for sessions it works along with express-session
     );
     app.use(flash())
     `
+
+auth.js
+    custom middleware for route blocking ie untile user logs in he cannot access the page
+        add this middleware to all the routes which need authentication until logged in
